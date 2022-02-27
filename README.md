@@ -2,7 +2,6 @@
 Proyecto de Bootcamp  Código chamba en Brivé
 
 ## Backlog
-****
 #### Historias de usuario
 
 | Identificador de historia| Proyecto  | Historia | Prioridad | Estatus | Fecha de inicio | Sprint |
