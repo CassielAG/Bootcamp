@@ -24,23 +24,5 @@ const MetodoLog = () => {
         }
     })
     .then(response => response.text())
-    .then(data => console.log("Método Post api", data));
-};
-
-const MetodoReg = () => {
-    let userInfo = {
-        Email: $('#email').val(),
-        UserName: $('#username').val(),
-        Pass: $('#pass').val()
-    };
-
-    fetch(`${urlBase}/Register`, {
-        method: 'POST',
-        body: JSON.stringify(userInfo),
-        headers: {
-            'Content-Type': 'application/json'
-        }
-    })
-    .then(response => response.text())
-    .then(data => console.log("Método Post2 api", data));
+    .then(data => console.log("LogIn correcto", data));
 };
