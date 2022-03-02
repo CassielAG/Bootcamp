@@ -1,0 +1,116 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  height: 550px;
+  background-image: url("../LogIn/assets/img_brivefondo.jpg");
+background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 500px;
+  width: 450px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  height: 100px;
+  width: 400px;
+}
+
+h2{
+  color: #5b6671;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+}
+
+input{
+  border-radius: 7px;
+  width: 250px;
+  height: 35px;
+  border: hidden;
+  border-bottom: 5px solid #abdb1f;
+  font-size: medium;
+  outline: none;
+}
+
+input[type=email]:focus-visible{
+  border: hidden;
+  border-bottom: 5px solid #abdb1f;
+}
+
+.pass{
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+/* button{
+  height: 30px;
+  border-radius: 7px;
+  border: 2px solid #abdb1f;
+  color: #5b6671;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-size: medium;
+} */
+
+.formato_boton {
+  height: 30px;
+  border-radius: 7px;
+  border: 2px solid #abdb1f;
+  color: #5b6671;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  font-size: medium;
+  text-align: center;
+  FONT-SIZE: 15pt;
+}
+
+.formato_boton:hover {
+  background-color: #abdb1f;
+  color: white;
+}
+
+/* button:hover{
+  background-color: #abdb1f;
+  color: white;
+} */
+
+.links{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.otros{
+  margin: 5px;
+}
+
+.otros:visited{
+  color: #5b6671;
+}
+
+.otros:hover{
+  color: #abdb1f;
+}
