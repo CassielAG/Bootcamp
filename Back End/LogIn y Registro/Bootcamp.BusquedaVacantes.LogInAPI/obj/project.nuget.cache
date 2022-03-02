@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "zg3RFs1e//j+k9WoTk6i55q8+KzEZKhYiSWlkocrCa8a4r2uoEBitdqv7klPKPNghAbD0GHKIPl5yYUwFts/JA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jague\\source\\repos\\Bootcamp.BusquedaVacantes.LogInAPI\\Bootcamp.BusquedaVacantes.LogInAPI\\Bootcamp.BusquedaVacantes.LogInAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jague\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\jague\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\jague\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\jague\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\jague\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\jague\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
