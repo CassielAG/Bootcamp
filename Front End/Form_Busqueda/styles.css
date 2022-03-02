@@ -1,0 +1,137 @@
+.container-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-image: url("../Form_Busqueda/img_brive.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-title > h1,
+.container-title h3 {
+  color: white;
+}
+
+.container-title h1 {
+  font-size: 60px;
+}
+
+.container-title h3 {
+  font-size: 25px;
+  margin: 0;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+  padding-top: 20px;
+  width: 0;
+  position: fixed;
+  top: 30px;
+  right: 0;
+  background-color: white;
+  transition: all 0.3s;
+}
+
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+  }
+  
+  .form {
+    width: 800px;
+    height : 498px;
+  }
+  
+  ul {
+    height: 30px;
+    color: white;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+  }
+  
+  ul li {
+    align-self: center;
+    list-style: none;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+  .Buscar {
+    background-color: rgb(21, 221, 31);
+    color: #fff;
+    text-align: center;
+    height: 60px;
+    }
+
+  .logo {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50px;
+    }
+
+  .container {
+  background-color: cornflowerblue;
+
+  height: 150px;
+  }
+
+  .form-control {
+    height: 48px;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .form-control i {
+    width: 18px;
+    height: 18px;
+  }
+  .form-control {
+    padding: 0 120px;
+  }
+
+  .btn-primary {
+    padding: 0 50px;
+    height: 48px;
+    FONT-SIZE: 16pt;
+    BORDER: rgb(30, 180, 43) 1px solid;
+    BACKGROUND-COLOR: rgb(30, 180, 43);
+  }
+
+  .btn-primary:hover { 
+    background: rgb(36, 204, 50); 
+  } 
+
+/*   .form-control {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    animation: iconRotate 1s infinite linear;
+    transition: 0.3s all;
+  } */
+
+  footer {
+    background-color:#464741;
+    height: 50%;
+    color: white;
+    padding: 15px;
+  }
+  
+  .main1 { 
+    display:flex;
+    margin:0 auto;
+  }
+  
+  a img:hover {
+      color: #fff;
+  }

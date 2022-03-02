@@ -1,0 +1,82 @@
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 20vh;
+  }
+  
+  .form {
+    width: 800px;
+    height : 498px;
+  }
+  
+  ul {
+    height: 30px;
+    color: white;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: center;
+  }
+  
+  ul li {
+    align-self: center;
+    list-style: none;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+
+  .Buscar {
+    background-color: rgb(21, 221, 31);
+    color: #fff;
+    text-align: center;
+    height: 60px;
+    }
+
+  .logo {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 50px;
+    }
+
+  .container {
+  background-color: cornflowerblue;
+
+  height: 150px;
+  }
+
+  .form-control {
+    height: 48px;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .form-control i {
+    width: 18px;
+    height: 18px;
+  }
+  .form-control {
+    padding: 0 120px;
+  }
+
+  .btn-primary {
+    padding: 0 50px;
+    height: 48px;
+    FONT-SIZE: 16pt;
+    BORDER: rgb(30, 180, 43) 1px solid;
+    BACKGROUND-COLOR: rgb(30, 180, 43);
+  }
+
+  .btn-primary:hover { 
+    background: rgb(36, 204, 50); 
+  } 
+
+/*   .form-control {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    animation: iconRotate 1s infinite linear;
+    transition: 0.3s all;
+  } */
