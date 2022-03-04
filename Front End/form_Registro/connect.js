@@ -1,5 +1,10 @@
 let urlBase = "https://localhost:44333/";
 
+if(localStorage.getItem("alert")=="No"){ 
+    alert("Inicia sesión para buscar");
+}
+sessionStorage.clear()
+
 const Registred = ()=>{
     if(document.getElementById("name").value == ""){
         alert("Por favor ingresa tu Nombre");
@@ -12,7 +17,9 @@ const Registred = ()=>{
     }else if (!(document.getElementById("passConf").value == document.getElementById("pass").value)) {
         alert("Las contraseñas no coinciden");
     }else
-        MetodoReg();
+        localStorage.setItem("email", document.getElementById("email").value);
+        localStorage.setItem("pass", document.getElementById("pass").value);
+        //MetodoReg();
         location.href="../LogIn/index.html";
 }
 

@@ -5,9 +5,13 @@ const Logged = ()=>{
         alert("Por favor ingresa tu email");
     }else if (document.getElementById("pass").value == "") {
         alert("Por favor ingresa tu contraseña");
-    }else
-        MetodoLog();
+    }else if (localStorage.getItem("email") == document.getElementById("email").value && 
+                localStorage.getItem("pass") == document.getElementById("pass").value) {
+        //MetodoLog();
         location.href="../Form_Busqueda/form_busqueda.html";
+    }else{
+        alert("Usuario NO registrado");
+    }
 }
 
 const MetodoLog = () => {
