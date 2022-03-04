@@ -6,14 +6,14 @@ const Logged = ()=>{
     }else if (document.getElementById("pass").value == "") {
         alert("Por favor ingresa tu contraseña");
     }else
-        //MetodoLog();
+        MetodoLog();
         location.href="../Form_Busqueda/form_busqueda.html";
 }
 
 const MetodoLog = () => {
     let userInfo = {
-        Email: $('#email').val(),
-        Pass: $('#pass').val()
+        Email: document.getElementById("email").value,
+        Pass: document.getElementById("pass").value
     };
     
     fetch(`${urlBase}/api/LogIn`, {

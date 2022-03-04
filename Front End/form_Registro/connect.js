@@ -12,7 +12,7 @@ const Registred = ()=>{
     }else if (!(document.getElementById("passConf").value == document.getElementById("pass").value)) {
         alert("Las contraseñas no coinciden");
     }else
-        //MetodoReg();
+        MetodoReg();
         location.href="../LogIn/index.html";
 }
 
